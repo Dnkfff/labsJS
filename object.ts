@@ -1,4 +1,5 @@
 'use strict';
+
 const welcome = person => {
     console.log(`Ave, ${person.name}!`);
 };

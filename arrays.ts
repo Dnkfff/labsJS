@@ -1,7 +1,5 @@
-'use strict'
-
-let array = [],
-array2 = [];
+let array: string[] = [],
+array2: string[] = [];
 
 let range = function (startNum, endNum) {
   for (let i = startNum  ; i <= endNum ; i++)
@@ -9,7 +7,7 @@ let range = function (startNum, endNum) {
 console.dir (array);
 }
 
-range (15,30);
+range(15,30);
 
 let rangeOdd = function (startNum, endNum){
   for (let i = startNum; i <= endNum ; i++)
@@ -20,4 +18,5 @@ let rangeOdd = function (startNum, endNum){
   }
   console.dir   (array2);
 }
+
 rangeOdd(15,30);
