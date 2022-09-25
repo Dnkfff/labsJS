@@ -1,5 +1,4 @@
-let array: string[] = [],
-array2: string[] = [];
+
 
 let range = function (startNum, endNum) {
   for (let i = startNum  ; i <= endNum ; i++)
@@ -20,3 +19,5 @@ let rangeOdd = function (startNum, endNum){
 }
 
 rangeOdd(15,30);
+
+export default {array}
