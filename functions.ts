@@ -1,9 +1,8 @@
-'use strict'
+//'use strict'
 
-//import { useNavigation } from '@react-navigation/native';
-import array from "./arrays";
+import { array, array2 } from './arrays';
 
-let avarage = (a: number, b: number): number => {
+let avarage = (a: number, b: number) => {
   return (a+b)/2;
 }
 
@@ -12,7 +11,7 @@ let square = (x: number) => {
 }
 
 let cube = (x: number) => {
-  return (Math.pow(x,3));
+  return (Math.pow(x, 3));
 }
 
 export default function calculate() {
@@ -21,3 +20,6 @@ export default function calculate() {
   }
   console.log(array);
 }
+
+console.log(array2)
+console.log(avarage(5,6));

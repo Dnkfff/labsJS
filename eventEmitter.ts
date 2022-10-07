@@ -2,14 +2,18 @@
 
 import * as variables from "./variables";
 
-const event = (task: Event) => {
+const MAXIMUM = variables.MAXIMUM;
+const INTERVAL = variables.INTERVAL;
+let counter = variables.counter;
+
+const event = (task: any) => {
 
     setInterval(() => {
 
-    } , INTERVAL);
+    } , INTERVAL); //
 
         if (counter === MAXIMUM){
-         console.log ('The end');
+         console.log('The end');
          clearInterval();
          return;
         }
@@ -19,6 +23,6 @@ const event = (task: Event) => {
 
 };
 
-//console.dir(event());
+console.dir(event(void{}));
 
-//timer = setInterval(event, INTERVAL);
+setInterval(event, INTERVAL);

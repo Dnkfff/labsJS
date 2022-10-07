@@ -1,4 +1,4 @@
 declare module "eventEmitter" {
-    declare var event: any;
-    export event; 
+    declare event: any;
+    export default event;
 }
