@@ -1,5 +1,3 @@
-//'use strict'
-
 import { array, array2 } from './arrays';
 
 let avarage = (a: number, b: number) => {
