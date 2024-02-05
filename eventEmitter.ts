@@ -10,7 +10,7 @@ const event = (task: any) => {
 
     setInterval(() => {
 
-    } , INTERVAL); //
+    } , INTERVAL);
 
         if (counter === MAXIMUM){
          console.log('The end');
